@@ -2,6 +2,21 @@ package com.practice.gfg;
 
 import java.util.Scanner;
 
+/**
+ * Given two strings 'str' and a wildcard pattern 'pattern' of length N and M respectively,  You have to print '1' if the wildcard pattern is matched with str else print '0' .
+
+The wildcard pattern can include the characters ‘?’ and ‘*’
+‘?’ – matches any single character
+‘*’ – Matches any sequence of characters (including the empty sequence)
+
+Example 1:
+Input:
+pattern = "ba*a?"
+str = "baaabab"
+Output: 1
+Explanation: replace '*' with "aab" and '?' with 'b'. 
+ **/
+
 public class WildcardPatternMatching {
 
 	public static void main(String[] args) {
